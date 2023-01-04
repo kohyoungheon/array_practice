@@ -8,6 +8,7 @@ puts string_array.push("thread", "fur")
 # The push method will add the new elements to the end of an array.
 # Returns the array with the new elements
 # Return value: ["wool","yarn","silk","cotton","thread","fur"]
+
 puts integer_array.pop
 # The pop method will remove the last element of an array.
 # Returns the element that was removed
@@ -29,3 +30,8 @@ fruits = ["apple", "banana", "orange"]
 # In the example array above called fruits, apple would be in index position 0, banana in 1, and orange in 2.
 # To reference an item in an index, use the array name and index number in brackets.
 # EX: fruits[0] would return the value "apple"
+
+# Another extremely useful array method
+[1,2,3].include?(3)
+#Return value: true
+#The include? method is very useful for checking to see if a value exists inside of an array.

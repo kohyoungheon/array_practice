@@ -22,3 +22,10 @@ puts boolean_array.unshift(false,false,false,false)
 # Adds elements to the beginning of the array.
 # Returns new array with added values
 # Return value: [false,false,false,false,true,false,false,true]
+
+# Every element in an array has an index position.
+# Arrays in ruby start from an index of 0. 
+fruits = ["apple", "banana", "orange"]
+# In the example array above called fruits, apple would be in index position 0, banana in 1, and orange in 2.
+# To reference an item in an index, use the array name and index number in brackets.
+# EX: fruits[0] would return the value "apple"
